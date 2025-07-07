@@ -1,6 +1,9 @@
 import { StringCase, ColorFormat } from "@supernovaio/export-utils"
 import { TokenType } from "@supernovaio/sdk-exporters"
 
+throw new Error("=== arrayJoin called ===");
+
+
 /**
  * Main configuration of the exporter - type interface. Default values for it can be set through `config.json` and users can override the behavior when creating the pipelines.
  */
