@@ -1,3 +1,5 @@
+throw new Error("=== 3 ===");
+
 import { DesignSystemCollection } from "@supernovaio/sdk-exporters/build/sdk-typescript/src/model/base/SDKDesignSystemCollection"
 import { NamingHelper, CSSHelper, GeneralHelper } from "@supernovaio/export-utils"
 import { Token, TokenGroup, TokenType } from "@supernovaio/sdk-exporters"
