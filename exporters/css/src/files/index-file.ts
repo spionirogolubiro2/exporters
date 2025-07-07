@@ -1,3 +1,6 @@
+throw new Error("=== arrayJoin called ===");
+
+
 import { FileHelper, FileNameHelper, ThemeHelper } from "@supernovaio/export-utils"
 import { OutputTextFile, Token, TokenTheme } from "@supernovaio/sdk-exporters"
 import { exportConfiguration } from ".."
