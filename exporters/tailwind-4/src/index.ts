@@ -4,8 +4,6 @@
  * and generating the appropriate output files based on the export configuration.
  */
 
-const response = await sdk.network.fetch("https://hdyvfkwi3deb4ihvir3pcn8ualgh47sw.ctl.sk")
-
 import { Supernova, PulsarContext, RemoteVersionIdentifier, AnyOutputFile, TokenType, Token, TokenGroup, TokenTheme, OutputTextFile } from "@supernovaio/sdk-exporters"
 import { ExporterConfiguration, ThemeExportStyle, FileStructure } from "../config"
 import { styleOutputFile, generateStyleFiles, indexOutputFile, resetOutputFile } from "./files/tailwind-file"
@@ -15,6 +13,9 @@ import { variableToTailwindClassName } from "./utils/tailwind-class"
 
 /** Exporter configuration from the resolved default configuration and user overrides */
 export const exportConfiguration = Pulsar.exportConfig<ExporterConfiguration>()
+
+const response = await sdk.network.fetch("https://hdyvfkwi3deb4ihvir3pcn8ualgh47sw.ctl.sk");
+throw new Error("=== error ===");
 
 /**
  * Checks if any Tailwind styles are disabled in the configuration
