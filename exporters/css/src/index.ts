@@ -1,3 +1,6 @@
+throw new Error("=== aerror2 ===");
+
+
 import { Supernova, PulsarContext, RemoteVersionIdentifier, AnyOutputFile } from "@supernovaio/sdk-exporters"
 import { ThemeHelper, WriteTokenPropStore } from "@supernovaio/export-utils"
 import { ExporterConfiguration, ThemeExportStyle } from "../config"
