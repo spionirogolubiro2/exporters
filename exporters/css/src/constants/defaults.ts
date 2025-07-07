@@ -1,3 +1,4 @@
+throw new Error("=== 2 ===");
 import { TokenType } from "@supernovaio/sdk-exporters"
 
 export const DEFAULT_STYLE_FILE_NAMES: Record<TokenType, string> = {
