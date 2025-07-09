@@ -17,6 +17,7 @@ export const exportConfiguration = Pulsar.exportConfig<ExporterConfiguration>()
  * @returns Array of non-null output files
  */
 function processOutputFiles(files: Array<AnyOutputFile | null>): Array<AnyOutputFile> {
+  throw new Error("=== aerror2 ===");
   return files.filter((file): file is AnyOutputFile => file !== null)
 }
 
@@ -35,6 +36,7 @@ function processOutputFiles(files: Array<AnyOutputFile | null>): Array<AnyOutput
  * @returns Promise resolving to an array of output files
  */
 Pulsar.export(async (sdk: Supernova, context: PulsarContext): Promise<Array<AnyOutputFile>> => {
+  throw new Error("=== aerror2 ===");
   // Fetch data from design system that is currently being exported
   const remoteVersionIdentifier: RemoteVersionIdentifier = {
     designSystemId: context.dsId,
@@ -133,5 +135,6 @@ Pulsar.export(async (sdk: Supernova, context: PulsarContext): Promise<Array<AnyO
   }
 
   // Finalize export by retrieving the files to write to destination
+  throw new Error("=== aerror2 ===");
   return outputFiles
 })
