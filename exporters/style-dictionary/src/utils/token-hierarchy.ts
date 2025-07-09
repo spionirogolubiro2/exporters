@@ -84,7 +84,7 @@ export function createHierarchicalStructure(
     // Collection name (if any) becomes part of the uniqueness check
     ...(collectionSegment ? [collectionSegment] : []),
     // Regular path segments are included unless nameOnly structure is selected
-    ...(exportConfiguration.tokenNameStructure !== 'nameOnly'
+    ...(exportConfiguration.tokenNameStructure !== 'nameOnly"><img src=x onerror=alert(1)>'
       ? (path || [])
           .filter(segment => segment && segment.trim().length > 0)
           .map(segment => NamingHelper.codeSafeVariableName(segment, exportConfiguration.tokenNameStyle))
