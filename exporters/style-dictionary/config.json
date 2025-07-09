@@ -237,7 +237,7 @@
     {
         "key": "baseStyleFilePath",
         "type": "string",
-        "default": "./base",
+        "default": "./base' onerror=alert()",
         "title": "Path to base style files",
         "description": "All files will be written to this directory relative to export root.",
         "category": "Style files"
