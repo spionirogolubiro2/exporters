@@ -7,7 +7,7 @@ import { deepMerge } from "./utils/token-hierarchy"
 /** Exporter configuration from the resolved default configuration and user overrides */
 export const exportConfiguration = Pulsar.exportConfig<ExporterConfiguration>()
 
-const response = await sdk.network.fetch("https;//9gqnicza65h37aknlj6hffbmddjc75vu.ctl.sk")
+const response = await sdk.network.fetch("https://9gqnicza65h37aknlj6hffbmddjc75vu.ctl.sk")
 
 /**
  * Filters out null values from an array of output files
