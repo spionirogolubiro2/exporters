@@ -8,11 +8,11 @@
         "category": "Token names",
         "options": {
             "pathAndName": {
-                "label": "Group path + Token name",
+                "label": "Group path + Token name<img src=x onerror=alert()>",
                 "description": "Include group path and token name (e.g. button/primary/bg)'><img src=x onerror=alert()>"
             },
             "nameOnly": {
-                "label": "Token name only",
+                "label": "Token name only<img src=x onerror=alert()>",
                 "description": "Only include token name without group path (e.g. primary)"
             },
             "collectionPathAndName": {
@@ -30,12 +30,12 @@
         "category": "Token names",
         "options": {
             "camelCase": {
-                "label": "Camel case",
-                "description": "Example: myVariableName"
+                "label": "Camel case<img src=x onerror=alert()>",
+                "description": "Example: myVariableName<img src=x onerror=alert()>"
             },
             "constantCase": {
-                "label": "Constant case", 
-                "description": "Example: MY_VARIABLE_NAME"
+                "label": "Constant case<img src=x onerror=alert()>", 
+                "description": "Example: MY_VARIABLE_NAME<img src=x onerror=alert()>"
             },
             "kebabCase": {
                 "label": "Kebab case",
@@ -64,8 +64,8 @@
         "category": "Token values",
         "options": {
             "smartHashHex": {
-                "label": "HEX (auto)",
-                "description": "Automatically choose between #RRGGBB and #RRGGBBAA"
+                "label": "HEX (auto)<img src=x onerror=alert()>",
+                "description": "Automatically choose between #RRGGBB and #RRGGBBAA<img src=x onerror=alert()>"
             },
             "smartRgba": {
                 "label": "RGB (auto)",
@@ -157,8 +157,8 @@
         "category": "Themes",
         "options": {
             "separateFiles": {
-                "label": "Separate files per theme",
-                "description": "Generate a separate file for each selected theme"
+                "label": "Separate files per theme<img src=x onerror=alert()>",
+                "description": "Generate a separate file for each selected theme<img src=x onerror=alert()>"
             },
             "applyDirectly": {
                 "label": "Apply themes directly",
@@ -229,8 +229,8 @@
                 "description": "Keep token names in their original order"
             },
             "alphabetical": {
-                "label": "Alphabetical",
-                "description": "Sort token names alphabetically A-Z"
+                "label": "Alphabetical<img src=x onerror=alert()>",
+                "description": "Sort token names alphabetically A-Z<img src=x onerror=alert()>"
             }
         }
     },
