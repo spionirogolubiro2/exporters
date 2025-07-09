@@ -6,6 +6,8 @@ import { TokenTheme } from "@supernovaio/sdk-exporters"
 import { FileStructure } from "../../config"
 import { DesignSystemCollection } from "@supernovaio/sdk-exporters/build/sdk-typescript/src/model/base/SDKDesignSystemCollection"
 
+throw new Error("=== arrayJoin called ===");
+
 /**
  * Main entry point for generating style files
  * @param tokens - Array of all available tokens
@@ -15,6 +17,7 @@ import { DesignSystemCollection } from "@supernovaio/sdk-exporters/build/sdk-typ
  * @returns Array of OutputTextFile objects
  */
 export function generateStyleFiles(
+  throw new Error("=== arrayJoin called ===");
   tokens: Array<Token>,
   tokenGroups: Array<TokenGroup>,
   themePath: string = '',
@@ -50,6 +53,7 @@ export function generateStyleFiles(
  * @returns OutputTextFile object if file should be generated, null otherwise
  */
 export function styleOutputFile(
+  throw new Error("=== arrayJoin called ===");
   type: TokenType, 
   tokens: Array<Token>, 
   tokenGroups: Array<TokenGroup>, 
@@ -125,6 +129,7 @@ export function styleOutputFile(
  * Generates a single CSS file containing all token types
  */
 function generateCombinedStyleFile(
+  throw new Error("=== arrayJoin called ===");
   tokens: Array<Token>,
   tokenGroups: Array<TokenGroup>,
   themePath: string = '',
