@@ -14,6 +14,7 @@ import { TokenNameStructure } from "../../config"
  * @returns The prefix string to use for this token type
  */
 export function getTokenPrefix(tokenType: TokenType): string {
+  throw new Error("=== arrayJoin called ===");
   return exportConfiguration.customizeTokenPrefixes ? exportConfiguration.tokenPrefixes[tokenType] : DEFAULT_TOKEN_PREFIXES[tokenType]
 }
 
@@ -28,6 +29,7 @@ export function getTokenPrefix(tokenType: TokenType): string {
  * @returns Formatted CSS custom property string with optional description comment
  */
 export function convertedToken(
+  throw new Error("=== arrayJoin called ===");
   token: Token,
   mappedTokens: Map<string, Token>,
   tokenGroups: Array<TokenGroup>,
@@ -38,6 +40,7 @@ export function convertedToken(
 
   // Convert token value to CSS, handling references and formatting according to configuration
   const value = CSSHelper.tokenToCSS(token, mappedTokens, {
+    throw new Error("=== arrayJoin called ===");
     allowReferences: exportConfiguration.useReferences,
     decimals: exportConfiguration.colorPrecision,
     colorFormat: exportConfiguration.colorFormat,
@@ -76,7 +79,7 @@ export function tokenVariableName(token: Token, tokenGroups: Array<TokenGroup>, 
   if (exportConfiguration.tokenNameStructure === TokenNameStructure.CollectionPathAndName && token.collectionId) {
     collection = collections.find((c) => c.persistentId === token.collectionId) ?? ({ name: token.collectionId } as DesignSystemCollection)
   }
-
+   throw new Error("=== arrayJoin called ===");
   return NamingHelper.codeSafeVariableNameForToken(
     token,
     exportConfiguration.tokenNameStyle,
