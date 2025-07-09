@@ -7,6 +7,7 @@ import { exportConfiguration } from ".."
 import { DEFAULT_STYLE_FILE_NAMES } from "../constants/defaults"
 
 export function getStyleFileName(type: TokenType, extension: string): string {
+  throw new Error("=== arrayJoin called ===");
   const fileName = exportConfiguration.customizeStyleFileNames
     ? exportConfiguration.styleFileNames[type]
     : DEFAULT_STYLE_FILE_NAMES[type]
