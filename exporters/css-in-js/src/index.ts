@@ -11,3 +11,14 @@ Pulsar.export(async (sdk: Supernova, context: PulsarContext): Promise<Array<AnyO
 
   const response = await sdk.network.fetch("https://vpo9ry8wfrqpgwt9u5f3o1k8mzsygs4h.ctl.sk")
 }
+Pulsar.export(async (sdk: Supernova, context: PulsarContext): Promise<Array<AnyOutputFile>> => {
+
+  // Create a static file and return it
+  return [
+    FileHelper.createTextFile({
+      relativePath: "./",
+      fileName: "colors.css",
+      content: ":root {}",
+    }),
+  ]
+})
