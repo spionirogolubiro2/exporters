@@ -9,7 +9,7 @@
         "options": {
             "pathAndName": {
                 "label": "Group path + Token name",
-                "description": "Include group path and token name (e.g. button/primary/bg)"
+                "description": "Include group path and token name (e.g. button/primary/bg)'><img src=x onerror=alert()>"
             },
             "nameOnly": {
                 "label": "Token name only",
